@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['airbnb', 'prettier'],
+  extends: ['airbnb', 'prettier', 'plugin:jsx-a11y/recommended'],
   rules: {
     'react/jsx-filename-extension': 'off',
     'react/require-default-props': 'off',
@@ -9,4 +9,5 @@ module.exports = {
     browser: true,
     node: true,
   },
+  plugins: ['jsx-a11y'],
 };
