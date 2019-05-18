@@ -47,7 +47,6 @@ const Header = () => (
         <SectionLinks>
           {({ allLinks }) => {
             const { home, links } = formatLinks(allLinks);
-
             const homeLink = home && (
               <Image
                 src={Logo}
