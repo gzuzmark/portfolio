@@ -46,6 +46,7 @@ const plugins = [
       },
     },
   },
+  'gatsby-plugin-netlify',
 ];
 
 module.exports = client.getEntries().then(entries => {
